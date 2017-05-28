@@ -47,7 +47,7 @@ CTEST(checkdata,test_days366_sum10001)
 CTEST(amount_of_income,test_day1_sum10000)
 {	
 	// When
-    int result = amount_of_income (10000,1);
+    int result = amount_of_income (1,10000);
 
     // Then
     int expected = 9000;
@@ -57,7 +57,7 @@ CTEST(amount_of_income,test_day1_sum10000)
 CTEST(amount_of_income,test_sum10000days30)
 {
 	// When
-    int result = amount_of_income (10000,30);
+    int result = amount_of_income (30,10000);
 
     // Then
     int expected = 9000;

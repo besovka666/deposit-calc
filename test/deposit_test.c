@@ -107,7 +107,7 @@ CTEST(amount_of_income, test_241days_sum100000)
 CTEST(amount_of_income, test_365days_sum110000)
 {
 	// When
-    int result = amount_of_income (110000,365);
+    int result = amount_of_income (365,110000);
 
     // Then
     int expected = 126500;
